@@ -1,0 +1,1 @@
+Photo is left in userModel.js
