@@ -1,0 +1,35 @@
+.buttonsLP {
+  display: block;
+  text-align: center;
+  color: white;
+}
+  .signUpLP {
+    position: absolute;
+    background-color: #113669;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .logInLP {
+    right: 0px;
+    width: 150px;
+    text-align: right;
+    background-color: white;
+    padding: 10px 10px;
+    margin: 5px;
+    margin-left: 25px;
+    border-radius: 25rem;
+    border: none;
+    color: Black;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .logInLP:hover {
+    background-color:#113669;
+    color: white;
+  }

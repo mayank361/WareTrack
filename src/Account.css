@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .container h1{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-profile {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .change-password {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  

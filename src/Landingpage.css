@@ -1,0 +1,40 @@
+.ContainerLP{
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: skyblue;
+}
+.UpperMembersLP{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  color: white;
+}
+
+.Lp-image{
+  padding-right: 30%;
+  width: 20rem;
+}
+.WriteUp{
+  
+  padding-top: 1rem;
+  text-align: left;
+  width: 20rem;
+}
+.logo{
+  width: auto;
+}
+.Lp-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20vmin;
+
+}
+.textLP{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+

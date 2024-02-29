@@ -1,0 +1,115 @@
+.containerEU {
+    max-width: 100vw;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .navaddEU{
+    margin-left: 0;
+    width: 100vw;
+}
+  .titleEU {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: 650;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .detailsContainerEU {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    background: #fff;
+    padding: 30px;
+    margin-top: 5px;  
+    gap: 10px; 
+    background-color:#eeedef ;
+    border-radius: 10px;
+  }
+  
+  .inputContainerEU label {
+    text-align: left;
+    font-weight: 500;
+  }
+  
+  .inputContainerEU input[type="text"],
+  .inputContainerEU input[type="number"],
+  .inputContainerEU input[type="email"] {
+    display: flex;
+    text-align: start;
+    height: 40px;
+    width: 565px;;
+    background:  white;
+    border-radius: 6px;
+    font-size: large;
+  }
+  
+
+  .submitContainerEU {
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+  
+  }
+
+.submitEU {
+  display: flex;
+  width: 120px;
+  height: 39px;
+  padding-left: 30px;
+  align-items: center;
+  color: #fff;
+  background: #113669;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cancelEU{
+  display: flex;
+  width: 120px;
+  height: 39px;
+  padding-left: 30px;
+  align-items: center;
+  color: #fff;
+  background: #113669;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.editEU{
+  display: flex;
+  width: 120px;
+  height: 39px;
+  padding-left: 30px;
+  align-items: center;
+  color: #fff;
+  background: #113669;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.backEU {
+  display: flex;
+  width: 120px;
+  height: 39px;
+  padding-left: 30px;
+  align-items: center;
+  color: #fff;
+  background: #113669;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}

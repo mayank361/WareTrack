@@ -1,0 +1,42 @@
+.Vnav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: skyblue;
+        padding: 10px 80px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+#Vnavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+#Vnavbar li{
+    list-style: none;
+    padding: 0 0px;
+    position: relative;
+}
+#Vnavbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;   
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+#Vnavbar li a:hover,
+#Vnavbar li a.active{
+    color: #113669;
+}
+#Vnavbar li a:hover::after,
+#Vnavbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #113669;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}

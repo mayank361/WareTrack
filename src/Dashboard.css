@@ -1,0 +1,123 @@
+.containerdb {
+    display: flex;
+    flex-direction: column; 
+}
+.dbcon{
+    display: flex;
+    flex-direction: rows; 
+}
+.contentdb{
+    margin: 50px;
+    width: 100vw;
+}
+.tittledb {
+    align-items:center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+}
+
+.statdb{
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: 800;
+    height: 60px;
+    background-color: #C7C8CC;
+    border-radius:20px; 
+}
+.sideBoxdb{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 0px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: justify;
+}
+.box1db {
+    color: white;
+    background-color: grey;
+    margin-top: 20px;
+    border-radius:20px; 
+}
+  
+.box2db {
+    color: white;
+    background-color: #2ecc71;
+    margin-top: 20px; 
+    border-radius:20px; 
+}
+  
+.box3db {
+    color: white;
+    background-color: #e74c3c;
+    margin-top: 20px;
+    border-radius:20px;
+}
+  .box4db {
+    color: white;
+    background-color: #113669;
+    margin-top: 20px;
+    border-radius:20px; 
+}
+.textdb{
+    text-align: right;
+    font-weight: 600;
+}
+.valuesdb{
+    text-align: center;
+    font-weight: 800;
+}
+.icondb{
+    display: block;
+    margin-top: 20px;
+  margin-right: auto;
+    width: 60PX;
+}
+.buttondb {
+    width: 30px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.searchbardb {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+    
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

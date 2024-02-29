@@ -1,0 +1,93 @@
+.containerAP{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background: url(product.jpg);
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+}
+.tittleAP{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: 650;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+}
+.tittle1AP{
+    font-size: 20px;
+    font-weight: 500;
+}
+.navaddAP{
+    width: 100vw;
+}
+.detailsConAP{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    background: #fff;
+    padding: 30px;
+    margin-top: 5px;  
+    gap: 10px; 
+    background-color:#eeedef ;
+    border-radius: 10px;
+}
+.imageDetailsAP{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    }
+
+.inputImg{
+    padding: 5px;
+    display: flex;
+    height: 40px;
+    background: white;
+    border-radius: 6px;
+    width: 565px;
+    border: 1px solid black;
+}
+.supFormatAP{
+    text-align: left;
+    font-size: small;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.inputboxAP {
+    display: flex;
+    text-align: start;
+    height: 40px;
+    background:  white;
+    border-radius: 6px;
+    font-size: large;
+}
+.inputdescAP{
+
+    height: 100px;
+    background:  white;
+    border-radius: 6px;
+    font-size: large;
+}
+.submitContainerAP {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.submitAP {
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #113669;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
